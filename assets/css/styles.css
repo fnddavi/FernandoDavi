@@ -285,3 +285,39 @@ footer {
         height: auto;
     }
 }
+
+/* Estilo para as etiquetas de tecnologia */
+      .tech-stack {
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+      }
+      .tech-badge {
+        background-color: #e0e0e0; /* Fundo cinza claro */
+        color: #333;
+        font-size: 0.75rem;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      /* Estilo para o botão de contato (CTA) */
+      .btn-cta {
+        display: inline-block;
+        background-color: #007bff; /* Azul destaque */
+        color: white;
+        padding: 12px 24px;
+        margin-top: 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+      .btn-cta:hover {
+        background-color: #0056b3;
+      }
+      .btn-cta i {
+        margin-right: 8px;
+      }

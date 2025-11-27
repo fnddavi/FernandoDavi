@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Fernando Davi | Desenvolvedor de Software Multiplataforma</title>
+    <meta name="description" content="Portfólio de Fernando Davi, desenvolvedor em formação na Fatec Jacareí. Projetos em React, Node.js, TypeScript, React Native e soluções Full Stack." />
+    <meta name="keywords" content="Fernando Davi, Desenvolvedor, Front-end, Back-end, React, TypeScript, Node.js, Portfolio, Fatec, Jacareí" />
+    <meta name="author" content="Fernando Davi Ferreira" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fnddavi.github.io/FernandoDavi/" />
+    <meta property="og:title" content="Fernando Davi | Portfólio de Desenvolvimento" />
+    <meta property="og:description" content="Confira meus projetos acadêmicos e habilidades em desenvolvimento de software: React, Node.js, Mobile e mais." />
+    <meta property="og:image" content="https://fnddavi.github.io/FernandoDavi/assets/images/eu_pro.png" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://fnddavi.github.io/FernandoDavi/" />
+    <meta property="twitter:title" content="Fernando Davi | Portfólio de Desenvolvimento" />
+    <meta property="twitter:description" content="Confira meus projetos acadêmicos e habilidades em desenvolvimento de software." />
+    <meta property="twitter:image" content="https://fnddavi.github.io/FernandoDavi/assets/images/eu_pro.png" />
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./libs/fontawesome-free-6.7.2-web/css/all.min.css"
+    />
+
+    <style>
+      /* Estilo para as etiquetas de tecnologia */
+      .tech-stack {
+        margin: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+      }
+      .tech-badge {
+        background-color: #e0e0e0; /* Fundo cinza claro */
+        color: #333;
+        font-size: 0.75rem;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+      /* Estilo para o botão de contato (CTA) */
+      .btn-cta {
+        display: inline-block;
+        background-color: #007bff; /* Azul destaque */
+        color: white;
+        padding: 12px 24px;
+        margin-top: 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+      .btn-cta:hover {
+        background-color: #0056b3;
+      }
+      .btn-cta i {
+        margin-right: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="particles-js"></div>
+
+    <nav class="navbar">
+      <div class="logo">FERNANDO DAVI</div>
+      <div class="nav-links">
+        <a href="#home">HOME</a>
+        <a href="#formacao">FORMAÇÃO</a>
+        <a href="#projetos">PROJETOS</a>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="profile-container">
+        <img
+          src="./assets/images/eu_pro.png"
+          alt="Foto de perfil de Fernando Davi"
+          class="profile-img"
+        />
+        <div class="intro">
+          <h1>Olá!</h1>
+          <h2>Eu sou o Fernando</h2>
+          <p>
+            Desenvolvedor de Software em formação, apaixonado por transformar ideias em soluções eficientes. 
+            Atualmente cursando Desenvolvimento de Software Multiplataforma na Fatec Jacareí, com foco prático em 
+            <strong>React, TypeScript, Node.js e Banco de Dados</strong>. 
+            Sempre em busca de novos desafios para aplicar meus conhecimentos e evoluir tecnicamente.
+          </p>
+          
+          <a href="https://www.linkedin.com/in/fernando-davi-492842276/" target="_blank" class="btn-cta">
+            <i class="fab fa-linkedin"></i> Entre em Contato
+          </a>
+
+          <div class="social-links" style="margin-top: 20px;">
+            <a
+              href="https://www.instagram.com/davi_o.fernando/"
+              target="_blank"
+              rel="noopener"
+              title="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+              <span class="sr-only">Instagram</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/fernando-davi-492842276/"
+              target="_blank"
+              rel="noopener"
+              title="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+            <a
+              href="https://github.com/fnddavi"
+              target="_blank"
+              rel="noopener"
+              title="GitHub"
+            >
+              <i class="fab fa-github"></i>
+              <span class="sr-only">GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao" class="formacao">
+      <h2>FORMAÇÃO</h2>
+
+      <button class="accordion">Graduação</button>
+      <div class="panel">
+        <div class="cards-container">
+          <div class="education-card">
+            <img src="./assets/images/fatec.png" alt="Logotipo da Fatec Jacareí" />
+            <h3>Fatec Jacareí</h3>
+            <p class="course">Desenvolvimento de Software Multiplataforma</p>
+            <p class="date">2023-2025</p>
+            <p class="description">
+              Na faculdade, tive a oportunidade de ter contato com diversas tecnologias, como Node.js, JavaScript, TypeScript, PostgreSQL, MongoDB, Git, GitHub e outras. Através dos trabalhos em grupo das Atividades Baseadas em Projetos (ABPs), venho desenvolvendo minhas habilidades interpessoais e aprimorando minha capacidade de trabalhar em equipe.
+              As ABPs envolvem os alunos em um projeto proposto, através do qual aprendem conteúdo e desenvolvem habilidades de forma ativa, investigando e respondendo a questões complexas a cada semestre.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+      <h2>PROJETOS ACADÊMICOS</h2>
+
+      <button class="accordion">Meus Projetos</button>
+      <div class="panel">
+        <div class="cards-container">
+
+          <a
+            href="https://github.com/DevsDomain/D-FireTrack"
+            target="_blank"
+            rel="noopener"
+            class="project-card"
+          >
+            <img src="./assets/images/DFireTrack.gif" alt="Demonstração do projeto D-FireTrack" />
+            <h3>D-FireTrack</h3>
+            
+            <div class="tech-stack">
+              <span class="tech-badge">React</span>
+              <span class="tech-badge">TypeScript</span>
+              <span class="tech-badge">Bootstrap</span>
+              <span class="tech-badge">Axios</span>
+              <span class="tech-badge">Deep Learning</span>
+            </div>
+
+            <p class="semester">5º Semestre</p>
+            <p class="date">2025-1</p>
+            <p class="description">
+              Desenvolvedor front-end neste projeto para mapeamento automático de cicatrizes de queimadas via imagens de satélite (CBERS4, Amazonia 1) usando Deep Learning. Parceria com a empresa Visiona. Desenvolvido com React e TypeScript para robustez, Bootstrap para responsividade e integração via Axios.
+            </p>
+          </a>
+
+          <a
+            href="https://github.com/DevsDomain/D-Nutri"
+            target="_blank"
+            rel="noopener"
+            class="project-card"
+          >
+            <img src="./assets/images/dnutri.png" alt="Tela do aplicativo D-Nutri" />
+            <h3>D-Nutri</h3>
+
+            <div class="tech-stack">
+              <span class="tech-badge">React Native</span>
+              <span class="tech-badge">Mobile</span>
+              <span class="tech-badge">TypeScript</span>
+            </div>
+
+            <p class="semester">4º Semestre</p>
+            <p class="date">2024-2</p>
+            <p class="description">
+              Aplicativo móvel para acompanhamento de alimentação diária e controle de calorias/nutrientes. Focado em oferecer uma UX agradável e monitoramento constante para a saúde do usuário. Desenvolvido utilizando React Native para suporte multiplataforma (Android e iOS).
+            </p>
+          </a>
+
+          <a
+            href="https://github.com/DevsDomain/D-Traker"
+            target="_blank"
+            rel="noopener"
+            class="project-card"
+          >
+            <img src="./assets/images/dtracker.png" alt="Interface do sistema D-Traker" />
+            <h3>D-Traker</h3>
+
+            <div class="tech-stack">
+              <span class="tech-badge">MongoDB</span>
+              <span class="tech-badge">PostgreSQL</span>
+              <span class="tech-badge">Scrum Master</span>
+            </div>
+
+            <p class="semester">3º Semestre</p>
+            <p class="date">2024-1</p>
+            <p class="description">
+              Ferramenta de gerenciamento para projetos de mapeamento, controlando fluxo de edição e revisão. Utiliza MongoDB para dados geográficos e PostgreSQL para gestão de usuários. Atuei como Desenvolvedor e Scrum Master, focando na gestão ágil da equipe e integração de bancos de dados.
+            </p>
+          </a>
+
+          <a
+            href="https://github.com/DevsDomain/Bike4you"
+            target="_blank"
+            rel="noopener"
+            class="project-card"
+          >
+            <img src="./assets/images/bike4you.png" alt="Logo e interface do Bike4you" />
+            <h3>Bike4you</h3>
+
+            <div class="tech-stack">
+              <span class="tech-badge">React</span>
+              <span class="tech-badge">TypeScript</span>
+              <span class="tech-badge">PostgreSQL</span>
+            </div>
+
+            <p class="semester">2º Semestre</p>
+            <p class="date">2023-2</p>
+            <p class="description">
+              Plataforma peer-to-peer para aluguel de bicicletas. Conecta locadores e locatários diretamente. Construído com React e TypeScript para o front-end e PostgreSQL para o gerenciamento de dados, focando em uma experiência visual rica com bibliotecas de ícones.
+            </p>
+          </a>
+
+          <a
+            href="https://github.com/ScrumerDataAPI/API"
+            target="_blank"
+            rel="noopener"
+            class="project-card"
+          >
+            <img src="./assets/images/scrumer.png" alt="Logo do projeto Scrumer" />
+            <h3>Scrumer</h3>
+
+            <div class="tech-stack">
+              <span class="tech-badge">HTML5</span>
+              <span class="tech-badge">CSS3</span>
+              <span class="tech-badge">Bootstrap</span>
+            </div>
+
+            <p class="semester">1º Semestre</p>
+            <p class="date">2023-1</p>
+            <p class="description">
+              Aplicação web dedicada a fornecer um guia para implementação da metodologia SCRUM. Minha primeira experiência prática aprofundada com HTML, CSS e Bootstrap para criar interfaces responsivas, trabalhando intensamente a colaboração em equipe.
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright © 2025 by Fernando Davi</p>
+    </footer>
+
+    <script src="./libs/particles.js-2.0.0/particles.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
